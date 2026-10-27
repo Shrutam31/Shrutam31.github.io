@@ -153,7 +153,7 @@
                     <div class="bg-slate-800 border border-slate-700 p-4 rounded-xl text-center text-slate-300 font-medium transform hover:-translate-y-2 hover:bg-slate-700/50 hover:border-cyan-400 hover:text-cyan-300 hover:shadow-[0_0_20px_rgba(6,182,212,0.15)] transition-all duration-300 cursor-default">Azure Data Factory</div>
                     <div class="bg-slate-800 border border-slate-700 p-4 rounded-xl text-center text-slate-300 font-medium transform hover:-translate-y-2 hover:bg-slate-700/50 hover:border-cyan-400 hover:text-cyan-300 hover:shadow-[0_0_20px_rgba(6,182,212,0.15)] transition-all duration-300 cursor-default">PySpark Streaming</div>
                     <div class="bg-slate-800 border border-slate-700 p-4 rounded-xl text-center text-slate-300 font-medium transform hover:-translate-y-2 hover:bg-slate-700/50 hover:border-cyan-400 hover:text-cyan-300 hover:shadow-[0_0_20px_rgba(6,182,212,0.15)] transition-all duration-300 cursor-default">Delta Live Tables</div>
-                    <div class="bg-slate-800 border border-slate-700 p-4 rounded-xl text-center text-slate-300 font-medium transform hover:-translate-y-2 hover:bg-slate-700/50 hover:border-cyan-400 hover:text-cyan-300 hover:shadow-[0_0_20px_rgba(6,182,212,0.15)] transition-all duration-300 cursor-default">PostgreSQL</div>
+                    <div class="bg-slate-800 border border-slate-700 p-4 rounded-xl text-center text-slate-300 font-medium transform hover:-translate-y-2 hover:bg-slate-700/50 hover:border-cyan-400 hover:text-cyan-300 hover:shadow-[0_0_20px_rgba(6,182,212,0.15)] transition-all duration-300 cursor-default">Azure Synapse Analytics</div>
                     <div class="bg-slate-800 border border-slate-700 p-4 rounded-xl text-center text-slate-300 font-medium transform hover:-translate-y-2 hover:bg-slate-700/50 hover:border-cyan-400 hover:text-cyan-300 hover:shadow-[0_0_20px_rgba(6,182,212,0.15)] transition-all duration-300 cursor-default">Python & SQL</div>
                 </div>
             </div>
@@ -180,15 +180,15 @@
                         <div class="group flex-grow p-6 md:p-8 bg-slate-800 border border-slate-700 rounded-2xl transform hover:-translate-y-2 hover:border-cyan-500/50 hover:shadow-[0_15px_40px_-10px_rgba(6,182,212,0.25)] transition-all duration-500 flex flex-col relative">
                             <div class="flex justify-between items-start mb-4">
                                 <h3 class="text-2xl font-bold text-white leading-tight group-hover:text-cyan-300 transition-colors">Retail Analytics Lakehouse</h3>
-                                <a href="#" target="_blank" class="flex items-center gap-1 text-sm font-semibold text-cyan-400 hover:text-cyan-300 flex-shrink-0 ml-4 px-3 py-1 bg-cyan-500/10 rounded-full hover:bg-cyan-500/20 transition-colors">
-                                    <!-- <i class="fab fa-github"></i> View Source -->
+                                <a href="https://github.com/Shrutam31/RetailAnlayticsWalmart" target="_blank" class="flex items-center gap-1 text-sm font-semibold text-cyan-400 hover:text-cyan-300 flex-shrink-0 ml-4 px-3 py-1 bg-cyan-500/10 rounded-full hover:bg-cyan-500/20 transition-colors">
+                                    <i class="fab fa-github"></i> View Source
                                 </a>
                             </div>
                             <ul class="list-disc list-inside text-slate-400 text-sm space-y-2 mb-6">
-                                <li>Extracted live transactional data from a serverless PostgreSQL DB into Databricks using CDC.</li>
-                                <li>Designed Medallion architecture using dbt for One-Big-Table (OBT) and Ephemeral models.</li>
-                                <li>Configured SCD Type 2 via dbt snapshots for precise historical tracking.</li>
-                                <li>Orchestrated automated data quality gates in Apache Airflow.</li>
+                                <li>Eliminated source system strain by implementing Change Data Capture (CDC) to extract live transactional data from a serverless PostgreSQL DB without impacting production performance</li>
+                                <li>Reduced compute overhead by designing a streamlined Medallion architecture in Databricks, utilizing dbt Ephemeral models and a One-Big-Table (OBT) strategy to bypass unnecessary materializations.</li>
+                                <li>Achieved precise historical tracking for omnichannel retail metrics by configuring Slowly Changing Dimensions (SCD Type 2) via dbt snapshots, ensuring zero loss of state changes.</li>
+                                <li>Prevented downstream data anomalies by engineering strict, automated data quality gates orchestrated directly within Apache Airflow DAGs.</li>
                             </ul>
                             <div class="mt-auto flex flex-wrap gap-2 text-xs">
                                 <span class="px-3 py-1.5 bg-slate-900 text-cyan-300 rounded-lg border border-slate-700/50">Databricks</span>
@@ -207,15 +207,16 @@
                         <!-- Separate Text Container -->
                         <div class="group flex-grow p-6 md:p-8 bg-slate-800 border border-slate-700 rounded-2xl transform hover:-translate-y-2 hover:border-cyan-500/50 hover:shadow-[0_15px_40px_-10px_rgba(6,182,212,0.25)] transition-all duration-500 flex flex-col relative">
                             <div class="flex justify-between items-start mb-4">
-                                <h3 class="text-2xl font-bold text-white leading-tight group-hover:text-cyan-300 transition-colors">Spotify Data Pipeline</h3>
-                                <a href="#" target="_blank" class="flex items-center gap-1 text-sm font-semibold text-cyan-400 hover:text-cyan-300 flex-shrink-0 ml-4 px-3 py-1 bg-cyan-500/10 rounded-full hover:bg-cyan-500/20 transition-colors">
-                                    <!-- <i class="fab fa-github"></i> View Source -->
+                                <h3 class="text-2xl font-bold text-white leading-tight group-hover:text-cyan-300 transition-colors">Spotify Streaming Data Pipeline</h3>
+                                <a href="https://github.com/Shrutam31/SpotifyEndtoEndProject" target="_blank" class="flex items-center gap-1 text-sm font-semibold text-cyan-400 hover:text-cyan-300 flex-shrink-0 ml-4 px-3 py-1 bg-cyan-500/10 rounded-full hover:bg-cyan-500/20 transition-colors">
+                                    <i class="fab fa-github"></i> View Source
                                 </a>
                             </div>
                             <ul class="list-disc list-inside text-slate-400 text-sm space-y-2 mb-6">
-                                <li>Ingested data utilizing Azure Data Factory and Databricks Auto Loader.</li>
-                                <li>Processed continuous data streams using Spark Streaming and Delta Live Tables.</li>
-                                <li>Implemented Jinja2 metadata-driven templating for scalable transformations.</li>
+                                <li>Automated high-throughput ingestion by deploying Azure Data Factory and Databricks Auto Loader, replacing manual batch polling with event-driven file detection</li>
+                                <li>Achieved near real-time processing of continuous data streams by architecting a multi-hop Delta Lake pipeline using Spark Streaming and Delta Live Tables (DLT).</li>
+                                <li>Solved transformation scalability limitations by implementing Jinja2 metadata-driven templating, allowing the pipeline to dynamically apply cleansing logic across multiple tables without code duplication.</li>
+                                <li>Enforced strict data integrity by integrating DLT Expectations at the Silver layer, automatically dropping malformed records before they could reach downstream BI dashboards.</li>
                             </ul>
                             <div class="mt-auto flex flex-wrap gap-2 text-xs">
                                 <span class="px-3 py-1.5 bg-slate-900 text-cyan-300 rounded-lg border border-slate-700/50">Azure</span>
@@ -245,7 +246,7 @@
                         
                         <div class="bg-transparent group-hover:bg-slate-800/40 p-6 -mt-6 rounded-xl border border-transparent group-hover:border-slate-700/60 transform group-hover:translate-x-2 transition-all duration-300">
                             <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-2">
-                                <h3 class="text-2xl font-bold text-white group-hover:text-cyan-300 transition-colors">Senior Software Developer</h3>
+                                <h3 class="text-2xl font-bold text-white group-hover:text-cyan-300 transition-colors">Software Developer</h3>
                                 <span class="text-cyan-400 font-mono text-sm mt-2 md:mt-0 bg-cyan-500/10 px-3 py-1 rounded-full border border-cyan-500/20 shadow-sm">Jan 2024 - Sep 2024</span>
                             </div>
                             <h4 class="text-lg text-slate-300 font-medium mb-4 flex items-center gap-2">
